@@ -15,7 +15,7 @@ begin
     write('Masukkan nilai tugas mu : ');
     readln(tgs);
 
-    total:=0.5*prct+0.15*uts+0.15*uas+0.1*tgs+0.1*qz;
+    total:=0.5*prct+0.15*uts+0.15*uas+0.1*tgs+0.1*qz;   *Pembagian nilai kelas buk dian*
 
     if total >= 60 then
     writeln('Kamu Lulus')
